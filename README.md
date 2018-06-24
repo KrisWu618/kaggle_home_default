@@ -14,9 +14,8 @@ Share your questions and answers in [this Google doc](https://docs.google.com/do
 ## Meeting Notes
 6/23/2018 - Meeting 2
 
-missing value: 
-    
-    * multiple solution:
+** missing value: ** 
+- multiple solution:
        
        1. median
        
@@ -26,32 +25,34 @@ missing value:
        
        4. naive bayes - regression 
     
-    * missing value flag
+- missing value flag
    
-Join table will generate more missing value
+- Join table will generate more missing value 
 1. aggregate new columns - differenciate people who has null 
 
-using main table for model first
-whether they applied before - indicator
+2. using main table for model first
+3. whether they applied before - add indicator
 
-categorical data: 
+** Categorical data: **
 - linear model: need to deal with
 - Tree based model: can ignore
 
-colinearity
-- correlation: if high -> remove?
+** Colinearity: **
+1. correlation: if high -> remove?
 
-sparse matrix/ similar columns:
+2. sparse matrix/ similar columns:
 - building
 - documents
 - address/building age
-- check correlation
-- Random forest to check feature importance 
-- Feature generation: aggregate/feature selection (Linear Model); tree based model can ignore
-- numeric feature benefit for linear model; categorical feature good for tree based model
+
+- Solution
+1. check correlation
+2. Random forest to check feature importance 
+3. Feature generation: aggregate/feature selection (Linear Model); tree based model can ignore
+4. numeric feature benefit for linear model; categorical feature good for tree based model
 
 
-Next week: EDA for each table
+** Next week: EDA for each table **
 - all     - train:  (307511, 122)
 - all     - test:  (48744, 121)
 - kris    - bureau_balance:  (27299925, 3)
