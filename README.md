@@ -14,7 +14,7 @@ Share your questions and answers in [this Google doc](https://docs.google.com/do
 ## Meeting Notes
 6/23/2018 - Meeting 2
 
-## missing value: ## 
+#### missing value: #### 
 - multiple solution:
 1. median
 2. mean
@@ -29,11 +29,11 @@ Share your questions and answers in [this Google doc](https://docs.google.com/do
 2. using main table for model first
 3. whether they applied before - add indicator
 
-## Categorical data: ##
+#### Categorical data: ####
 - linear model: need to deal with
 - Tree based model: can ignore
 
-## Colinearity: ##
+#### Colinearity: ####
 1. correlation: if high -> remove?
 
 2. sparse matrix/ similar columns:
@@ -48,7 +48,7 @@ Share your questions and answers in [this Google doc](https://docs.google.com/do
 4. numeric feature benefit for linear model; categorical feature good for tree based model
 
 
-## Next week: EDA for each table ##
+#### Next week: EDA for each table ####
 - all     - train:  (307511, 122)
 - all     - test:  (48744, 121)
 - kris    - bureau_balance:  (27299925, 3)
