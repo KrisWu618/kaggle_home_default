@@ -14,7 +14,7 @@ Share your questions and answers in [this Google doc](https://docs.google.com/do
 ## Meeting Notes
 6/23/2018 - Meeting 2
 
-* missing value: 
+missing value: 
     
     * multiple solution:
        
