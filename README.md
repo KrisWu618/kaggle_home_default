@@ -10,3 +10,46 @@ Click [here](https://drive.google.com/drive/folders/1fID6TWxyoAvP6Opfwo2dYpSexAW
 
 ## Q&A
 Share your questions and answers in [this Google doc](https://docs.google.com/document/d/1U8qMmTOcAPZmsL7fGNErXqK3kIJFMAx4tmgVCJB6SAw/edit). 
+
+## Meeting Notes
+6/23/2018 - Meeting 2
+** missing value: 
+    * multiple solution:
+        1. median
+        2. mean
+        3. ignore
+        4. naive bayes - regression 
+    * missing value flag
+   
+Join table will generate more missing value
+1. aggregate new columns - differenciate people who has null 
+
+using main table for model first
+whether they applied before - indicator
+
+categorical data: 
+- linear model: need to deal with
+- Tree based model: can ignore
+
+colinearity
+- correlation: if high -> remove?
+
+sparse matrix/ similar columns:
+- building
+- documents
+- address/building age
+- check correlation
+- Random forest to check feature importance 
+- Feature generation: aggregate/feature selection (Linear Model); tree based model can ignore
+- numeric feature benefit for linear model; categorical feature good for tree based model
+
+
+Next week: EDA for each table
+all     - train:  (307511, 122)
+all     - test:  (48744, 121)
+kris    - bureau_balance:  (27299925, 3)
+kris    - bureau:  (1716428, 17)
+Xi      - credit_card_balance:  (3840312, 23)
+Minqian - installments_payments:  (13605401, 8)
+Minqian - POS_CASH_balance:  (10001358, 8)
+Lu      -previous_application:  (1670214, 37)
